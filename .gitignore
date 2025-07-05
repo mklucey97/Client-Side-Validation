@@ -1,0 +1,55 @@
+# But do not ignore these:
+!.gitignore
+
+# Unignore HTML, CSS, JS, and PHP files
+!*.html
+!*.css
+!*.php
+!*.js
+
+# Unignore the js directory and everything inside of it
+
+!js/
+!js/**
+
+
+# Unignore the vendor directory and everything inside of it
+
+!vendor/
+!vendor/**
+
+# Unignore composer files
+!composer.json
+!composer.lock
+!composer.phar
+
+# Unignore the css directory and everything inside it
+!css/
+!css/**
+
+# Unignore the images directory and everything inside it
+!images/
+!images/**
+
+# Unignore the templates directory and everything of it
+!templates/
+!templates/**
+
+# Unignore common image file extensions
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.svg
+!*.webp
+!*.bmp
+!*.tiff
+!*.ico
+
+# Unignore the mustache directory and everything inside it
+!mustache/
+!mustache/**
+
+# Unignore the 19 outputs directory and everything inside it
+!19 outputs/
+!19 outputs/**

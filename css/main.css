@@ -14,3 +14,11 @@ body, html {
   background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
   color: white;
 }
+section.home {
+  padding: 120px 1rem 1rem 1rem; /* top padding adjusted for fixed nav */
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+

@@ -101,3 +101,7 @@ form {
   gap: 1rem;
 }
 
+/* Label styling */
+form label {
+  margin-bottom: 0.25rem;
+}

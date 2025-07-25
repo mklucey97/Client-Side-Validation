@@ -198,3 +198,7 @@ header nav ul li {
   }
 }
 
+/* Padding adjustment for content below fixed nav */
+body {
+  padding-top: 80px; /* adjust based on nav height */
+}

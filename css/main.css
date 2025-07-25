@@ -142,3 +142,15 @@ body, html {
   font-size: 24px;
 }
 
+/* Navigation Bar Styles */
+header nav {
+  background: linear-gradient(to right, #fc039d, #fc039d); /* solid-looking gradient */
+  width: 100%;
+  position: fixed; /* keeps it at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+

@@ -183,3 +183,11 @@ header nav ul li a:hover {
   color: cyan;
   border-radius: 4px;
 }
+
+/* Responsive layout for tablets and desktops */
+@media (min-width: 768px) {
+  header nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }

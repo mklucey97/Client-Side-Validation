@@ -154,3 +154,12 @@ header nav {
   box-sizing: border-box;
 }
 
+/* Remove default list styling */
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column; /* mobile first: stacked links */
+  margin: 0;
+  padding: 0;
+}
+

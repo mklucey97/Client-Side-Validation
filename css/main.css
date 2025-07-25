@@ -26,4 +26,12 @@ section.home h1 {
   margin-bottom: 1rem;
 }
 
+/* Content wrapper holds image and text */
+.content-wrapper {
+  display: block; /* default mobile */
+  position: relative;
+  max-width: 100%;
+}
+
+
 

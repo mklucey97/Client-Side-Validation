@@ -284,3 +284,8 @@ html, body {
   box-sizing: border-box;
 }
 
+/* Error message paragraph */
+.body-div.error p {
+  margin-bottom: 1.5rem;
+}
+

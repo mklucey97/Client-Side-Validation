@@ -263,3 +263,16 @@ body, html {
   margin-top: 1rem;
   font-weight: bold;
 }
+
+/* Global Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 24px;
+  background: linear-gradient(to bottom, #d42f4a 50%, maroon 50%);
+  color: red;
+  text-shadow: 1px 1px 2px white;
+  min-height: 100vh;
+  box-sizing: border-box;
+}

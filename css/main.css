@@ -257,3 +257,9 @@ body, html {
   margin: 0 auto;
   text-align: left;
 }
+
+/* Paragraph styling */
+.body-div.success p {
+  margin-top: 1rem;
+  font-weight: bold;
+}

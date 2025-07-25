@@ -202,3 +202,18 @@ header nav ul li {
 body {
   padding-top: 80px; /* adjust based on nav height */
 }
+
+footer.centered {
+  background: linear-gradient(to right, gold, #ffd700);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 18px;
+  color: orange;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  position: relative; /* default position */
+
+  /* To ensure footer is near the bottom if page content is short */
+  margin-top: auto;
+}

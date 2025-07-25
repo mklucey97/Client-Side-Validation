@@ -105,3 +105,15 @@ form {
 form label {
   margin-bottom: 0.25rem;
 }
+
+/* Input styling */
+form input[type="text"] {
+  background-color: #dc143c;
+  color: limegreen;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+

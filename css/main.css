@@ -296,3 +296,8 @@ html, body {
   transition: transform 1s ease, filter 1s ease;
 }
 
+/* Hover animation and rainbow filter effect */
+.body-div.error img:hover {
+  transform: rotate(360deg);
+  filter: hue-rotate(360deg);
+}

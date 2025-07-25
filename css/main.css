@@ -163,3 +163,7 @@ header nav ul {
   padding: 0;
 }
 
+/* Navigation links */
+header nav ul li {
+  margin: 0.5rem 0;
+}

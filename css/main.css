@@ -129,3 +129,8 @@ form button[type="submit"] {
   box-sizing: border-box;
   cursor: pointer;
 }
+/* Optional hover effect */
+form button[type="submit"]:hover {
+  background-color: cyan;
+}
+

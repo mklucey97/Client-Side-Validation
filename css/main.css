@@ -191,3 +191,10 @@ header nav ul li a:hover {
     justify-content: center;
     gap: 2rem;
   }
+
+
+header nav ul li {
+    margin: 0;
+  }
+}
+

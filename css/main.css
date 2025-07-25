@@ -59,3 +59,11 @@ section.home h1 {
     max-width: 800px;
     margin: 0 auto;
   }
+
+   /* Make sure text stays readable */
+  .content-wrapper img {
+    max-width: 300px;
+    margin-right: 1.5rem;
+  }
+  
+

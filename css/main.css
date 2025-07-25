@@ -21,4 +21,9 @@ section.home {
   box-sizing: border-box;
 }
 
+section.home h1 {
+  color: red;
+  margin-bottom: 1rem;
+}
+
 

@@ -72,3 +72,15 @@ section.home h1 {
   }
 }
 
+/* Base reset and font styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 24px;
+  color: limegreen;
+  background: linear-gradient(to bottom, red 50%, #09609e 50%);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+

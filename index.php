@@ -10,6 +10,6 @@ $mustache = new Mustache_Engine;
 
 $header = file_get_contents('templates/header.html');
 $body   = file_get_contents('templates/home.html');
-
+$footer = file_get_contents('templates/footer.html');
 
 ?>

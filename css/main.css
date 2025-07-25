@@ -217,3 +217,12 @@ footer.centered {
   /* To ensure footer is near the bottom if page content is short */
   margin-top: auto;
 }
+
+/* To make sure footer sticks near bottom of viewport if content is short,
+   wrap your entire page content and footer in a flex container */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

@@ -33,5 +33,17 @@ section.home h1 {
   max-width: 100%;
 }
 
+/* Image styles: float left so text wraps on right */
+.content-wrapper img {
+  float: left;
+  max-width: 40vw; /* big enough but not full width */
+  height: auto;
+  margin: 0 1rem 1rem 0;
+  border-radius: 8px;
+  shape-outside: circle(50%);
+  -webkit-shape-outside: circle(50%);
+  shape-margin: 10px;
+}
+
 
 

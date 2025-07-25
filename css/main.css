@@ -226,3 +226,8 @@ html, body {
   display: flex;
   flex-direction: column;
 }
+
+body > *:not(footer) {
+  flex: 1 0 auto;
+}
+

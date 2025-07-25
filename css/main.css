@@ -289,3 +289,10 @@ html, body {
   margin-bottom: 1.5rem;
 }
 
+/* Mickey Mouse image styling */
+.body-div.error img {
+  width: 80%;
+  max-width: 300px;
+  transition: transform 1s ease, filter 1s ease;
+}
+

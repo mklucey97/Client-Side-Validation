@@ -45,5 +45,11 @@ section.home h1 {
   shape-margin: 10px;
 }
 
+/* Paragraph styles */
+.content-wrapper p {
+  text-align: left; /* let text wrap around image nicely */
+  margin: 0;
+  line-height: 1.5;
+}
 
 

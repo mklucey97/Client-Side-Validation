@@ -301,3 +301,18 @@ html, body {
   transform: rotate(360deg);
   filter: hue-rotate(360deg);
 }
+
+/* "Try Again" link styling */
+.body-div.error a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid red;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s, color 0.3s;
+}

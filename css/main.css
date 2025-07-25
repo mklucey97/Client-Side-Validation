@@ -175,3 +175,11 @@ header nav ul li a {
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
 }
+
+
+/* Hover effects */
+header nav ul li a:hover {
+  background-color: #75ffcd;
+  color: cyan;
+  border-radius: 4px;
+}

@@ -8,4 +8,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $mustache = new Mustache_Engine;
 
+
+$header = file_get_contents('templates/header.html');
+
 ?>

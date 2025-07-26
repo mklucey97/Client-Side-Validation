@@ -13,5 +13,6 @@ $body   = file_get_contents('templates/home.html');
 $footer = file_get_contents('templates/footer.html');
 
 $header_data = ["pagetitle" => "Home Page"];
+$body_data   = [];
 
 ?>

@@ -134,6 +134,25 @@ form button[type="submit"]:hover {
   background-color: cyan;
 }
 
+#form-clear {
+  background-color: #540c9c;
+  color: white;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 24px;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#form-clear:hover {
+  background-color: darkgreen;
+}
+
+
+
 /* Base Reset and Global Styles */
 body, html {
   margin: 0;

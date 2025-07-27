@@ -18,4 +18,6 @@ $body_data   = [];
 $footer_data = ["year" => date("Y")];
 
 echo $mustache->render($header, $header_data) . PHP_EOL;
+echo $mustache->render($body, $body_data) . PHP_EOL;
+echo $mustache->render($footer, $footer_data) . PHP_EOL;
 ?>

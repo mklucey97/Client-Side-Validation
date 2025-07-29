@@ -35,6 +35,7 @@ $mustache = new Mustache_Engine;
  $title = $_POST['title'] ?? "";
  $favdrink = $_POST['favdrink'] ?? "";
  $pname = $_POST['pname'] ?? "";
+ $favfictionalplace = $_POST['favfictionalplace'] ?? "";
 
 
 

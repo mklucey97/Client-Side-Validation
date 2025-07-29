@@ -8,6 +8,11 @@
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     require_once __DIR__ . '/vendor/autoload.php';
     $mustache = new Mustache_Engine;
+	
+	 echo $mustache->render(file_get_contents('templates/header.html'), [
+         'pagetitle' => 'Error'
+     ]);
+
 
 
 

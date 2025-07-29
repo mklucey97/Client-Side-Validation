@@ -29,6 +29,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 require_once __DIR__ . '/vendor/autoload.php';
 $mustache = new Mustache_Engine;
 
+/****************************************
+ * STEP 1: INPUT - Get form data safely
+ ****************************************/
+
 
 
 

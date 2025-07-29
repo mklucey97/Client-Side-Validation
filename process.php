@@ -12,6 +12,12 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 	 echo $mustache->render(file_get_contents('templates/header.html'), [
          'pagetitle' => 'Error'
      ]);
+	 
+	  echo $mustache->render(file_get_contents('templates/error.html'), [
+          'errorMessage' => "You cannot access this page directly. Please submit the form.",
+          'imageSrc' => 'images/mickeymouse.jpg',
+          'showTryAgain' => true
+      ]);
 
 
 

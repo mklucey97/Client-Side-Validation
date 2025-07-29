@@ -18,6 +18,13 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
           'imageSrc' => 'images/mickeymouse.jpg',
           'showTryAgain' => true
       ]);
+	  
+	  
+    echo $mustache->render(file_get_contents('templates/footer.html'), [
+        'year' => date("Y")
+    ]);
+    exit;
+}
 
 
 

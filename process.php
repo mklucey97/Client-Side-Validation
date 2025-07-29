@@ -33,6 +33,7 @@ $mustache = new Mustache_Engine;
  * STEP 1: INPUT - Get form data safely
  ****************************************/
  $title = $_POST['title'] ?? "";
+ $favdrink = $_POST['favdrink'] ?? "";
 
 
 

@@ -44,7 +44,7 @@ $mustache = new Mustache_Engine;
  *******************************************/
  $title = substr(trim(strip_tags($title)), 0, 64);
  $favdrink = substr(trim(strip_tags($favdrink)), 0, 64);
-
+ $pname = substr(trim(strip_tags($pname)), 0, 64);
 
 
 

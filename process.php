@@ -42,6 +42,7 @@ $mustache = new Mustache_Engine;
 /*******************************************
  * STEP 2: VALIDATION - Clean the input
  *******************************************/
+ $title = substr(trim(strip_tags($title)), 0, 64);
 
 
 

@@ -59,6 +59,8 @@ $mustache = new Mustache_Engine;
     $title !== $pname &&
     filter_var($email, FILTER_VALIDATE_EMAIL)
 ) {
+	$totalLength = strlen($title) + strlen($favdrink) + strlen($pname) + strlen($favfictionalplace) + strlen($favrealplace) + strlen($email);
+
 
 
 

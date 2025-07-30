@@ -52,6 +52,13 @@ $mustache = new Mustache_Engine;
  /***************************************************************
  * STEP 3 & 4: PROCESS + OUTPUT via Mustache templates
  ***************************************************************/
+ 
+ if (
+    $title && $favdrink && $pname && $favfictionalplace && $favrealplace && $email &&
+    $favfictionalplace !== $favrealplace &&
+    $title !== $pname &&
+    filter_var($email, FILTER_VALIDATE_EMAIL)
+) {
 
 
 

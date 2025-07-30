@@ -39,6 +39,9 @@ $mustache = new Mustache_Engine;
  $favrealplace = $_POST['favrealplace'] ?? "";
  $email = $_POST['email'] ?? "";
 
+/*******************************************
+ * STEP 2: VALIDATION - Clean the input
+ *******************************************/
 
 
 

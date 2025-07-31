@@ -80,6 +80,12 @@ $mustache = new Mustache_Engine;
 	 echo $mustache->render(file_get_contents('templates/header.html'), [
           'pagetitle' => 'Your Title Result'
     ]);
+	
+	 echo $mustache->render(file_get_contents('templates/success.html'), $templateVariables);
+
+    echo $mustache->render(file_get_contents('templates/footer.html'), [
+        'year' => date("Y")
+    ]);
 
 
 

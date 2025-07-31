@@ -10,3 +10,5 @@
  */
  
  "use strict";
+ 
+ function clearForm() {

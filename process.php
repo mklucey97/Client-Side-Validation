@@ -76,6 +76,11 @@ $mustache = new Mustache_Engine;
         'emailLength' => strlen($email),
         'long_title' => $totalLength > 30  // ✅ FIXED LOGIC HERE
     ];
+	
+	 echo $mustache->render(file_get_contents('templates/header.html'), [
+          'pagetitle' => 'Your Title Result'
+    ]);
+
 
 
 

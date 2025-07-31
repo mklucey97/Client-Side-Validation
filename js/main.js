@@ -12,3 +12,4 @@
  "use strict";
  
  function clearForm() {
+	 document.getElementById("title").value = "";

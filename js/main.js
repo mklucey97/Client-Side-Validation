@@ -14,3 +14,4 @@
  function clearForm() {
 	 document.getElementById("title").value = "";
 	 document.getElementById("favdrink").value = "";
+	 document.getElementById("pname").value = "";

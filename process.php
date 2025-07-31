@@ -60,6 +60,22 @@ $mustache = new Mustache_Engine;
     filter_var($email, FILTER_VALIDATE_EMAIL)
 ) {
 	$totalLength = strlen($title) + strlen($favdrink) + strlen($pname) + strlen($favfictionalplace) + strlen($favrealplace) + strlen($email);
+	
+	$templateVariables = [
+        'title' => $title,
+        'favdrink' => $favdrink,
+        'pname' => $pname,
+        'favfictionalplace' => $favfictionalplace,
+        'favrealplace' => $favrealplace,
+        'email' => $email,
+        'titleLength' => strlen($title),
+        'drinkLength' => strlen($favdrink),
+        'pnameLength' => strlen($pname),
+        'favfictionalplaceLength' => strlen($favfictionalplace),
+        'favrealplaceLength' => strlen($favrealplace),
+        'emailLength' => strlen($email),
+        'long_title' => $totalLength > 30  // ✅ FIXED LOGIC HERE
+    ];
 
 
 

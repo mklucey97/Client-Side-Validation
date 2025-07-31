@@ -8,3 +8,5 @@
  * 
  * Assignment 5: Client Side Validation
  */
+ 
+ "use strict";

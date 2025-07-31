@@ -96,7 +96,12 @@ $mustache = new Mustache_Engine;
              'errorMessage' => "I'm sorry, your input was not valid. Please try again.",
              'imageSrc' => 'images/mickeymouse.jpg',
              'showTryAgain' => true
-         ]);  
+         ]);
+         
+        echo $mustache->render(file_get_contents('templates/footer.html'), [
+            'year' => date("Y")
+    ]);
+}		 
 
 
 

@@ -91,6 +91,12 @@ $mustache = new Mustache_Engine;
         echo $mustache->render(file_get_contents('templates/header.html'), [
              'pagetitle' => 'Error'
         ]);
+		
+		 echo $mustache->render(file_get_contents('templates/error.html'), [
+             'errorMessage' => "I'm sorry, your input was not valid. Please try again.",
+             'imageSrc' => 'images/mickeymouse.jpg',
+             'showTryAgain' => true
+         ]);  
 
 
 

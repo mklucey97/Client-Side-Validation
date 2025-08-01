@@ -23,3 +23,5 @@
 
  function validate() {
 	 let errorMessage = "";
+	 
+	 let title = document.getElementById("title").value.trim();

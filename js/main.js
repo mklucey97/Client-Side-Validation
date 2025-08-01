@@ -17,3 +17,5 @@
 	 document.getElementById("pname").value = "";
 	 document.getElementById("favfictionalplace").value = "";
 	 document.getElementById("favrealplace").value = "";
+	 document.getElementById("email").value = "";
+	 

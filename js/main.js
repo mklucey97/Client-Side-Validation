@@ -21,4 +21,4 @@
 	 document.getElementById("msg").innerHTML = "<br>";
  }
 
-	 
+ function validate() {

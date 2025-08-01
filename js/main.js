@@ -18,4 +18,7 @@
 	 document.getElementById("favfictionalplace").value = "";
 	 document.getElementById("favrealplace").value = "";
 	 document.getElementById("email").value = "";
+	 document.getElementById("msg").innerHTML = "<br>";
+ }
+
 	 

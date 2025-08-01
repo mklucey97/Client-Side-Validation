@@ -27,3 +27,4 @@
 	 let title = document.getElementById("title").value.trim();
 	 let drink = document.getElementById("favdrink").value.trim();
 	 let pname = document.getElementById("pname").value.trim();
+	 let fiction = document.getElementById("favfictionalplace").value.trim();

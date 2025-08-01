@@ -29,3 +29,4 @@
 	 let pname = document.getElementById("pname").value.trim();
 	 let fiction = document.getElementById("favfictionalplace").value.trim();
 	 let real = document.getElementById("favrealplace").value.trim();
+	 let email = document.getElementById("email").value.trim();

@@ -25,3 +25,4 @@
 	 let errorMessage = "";
 	 
 	 let title = document.getElementById("title").value.trim();
+	 let drink = document.getElementById("favdrink").value.trim();

@@ -30,3 +30,5 @@
 	 let fiction = document.getElementById("favfictionalplace").value.trim();
 	 let real = document.getElementById("favrealplace").value.trim();
 	 let email = document.getElementById("email").value.trim();
+	 
+	 document.getElementById("title").value = title;

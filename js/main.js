@@ -34,3 +34,4 @@
 	 document.getElementById("title").value = title;
 	 document.getElementById("favdrink").value = drink;
 	 document.getElementById("pname").value = pname;
+	 document.getElementById("favfictionalplace").value = fiction;

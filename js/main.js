@@ -39,3 +39,4 @@
 	 document.getElementById("email").value = email;
 	 
 	 if (!title) errorMessage += "Title name cannot be empty.<br>";
+	 if (!drink) errorMessage += "Favorite drink cannot be empty.<br>";

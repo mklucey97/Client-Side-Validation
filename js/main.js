@@ -32,3 +32,4 @@
 	 let email = document.getElementById("email").value.trim();
 	 
 	 document.getElementById("title").value = title;
+	 document.getElementById("favdrink").value = drink;

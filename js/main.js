@@ -36,3 +36,4 @@
 	 document.getElementById("pname").value = pname;
 	 document.getElementById("favfictionalplace").value = fiction;
 	 document.getElementById("favrealplace").value = real;
+	 document.getElementById("email").value = email;

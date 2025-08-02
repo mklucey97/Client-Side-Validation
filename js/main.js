@@ -41,3 +41,4 @@
 	 if (!title) errorMessage += "Title name cannot be empty.<br>";
 	 if (!drink) errorMessage += "Favorite drink cannot be empty.<br>";
 	 if (!pname) errorMessage += "Pet name cannot be empty.<br>";
+	 if (!fiction) errorMessage += "Fictional place cannot be empty.<br>";

@@ -37,3 +37,5 @@
 	 document.getElementById("favfictionalplace").value = fiction;
 	 document.getElementById("favrealplace").value = real;
 	 document.getElementById("email").value = email;
+	 
+	 if (!title) errorMessage += "Title name cannot be empty.<br>";

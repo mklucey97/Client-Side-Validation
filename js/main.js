@@ -51,3 +51,6 @@
 	 if (fiction && real && fiction === real) {
          errorMessage += "Real place and fictional place cannot be the same.<br>";
      }
+	 
+	   return errorMessage;
+}

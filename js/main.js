@@ -46,3 +46,5 @@
 	 if (!email) {
 		 errorMessage += "Email address cannot be empty.<br>";
 	} else if (!email.includes("@") || !email.includes(".")) {
+		errorMessage += "Email address is not valid.<br>";
+    }

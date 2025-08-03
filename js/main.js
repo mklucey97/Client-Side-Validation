@@ -45,3 +45,4 @@
 	 if (!real) errorMessage += "Real place cannot be empty.<br>";
 	 if (!email) {
 		 errorMessage += "Email address cannot be empty.<br>";
+	} else if (!email.includes("@") || !email.includes(".")) {

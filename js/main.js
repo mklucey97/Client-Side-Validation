@@ -56,3 +56,4 @@
 }
 
 document.getElementById("form-submit").onclick = function () {
+	let msg = validate();

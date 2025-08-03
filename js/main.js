@@ -54,3 +54,5 @@
 	 
 	   return errorMessage;
 }
+
+document.getElementById("form-submit").onclick = function () {

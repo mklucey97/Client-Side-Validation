@@ -48,3 +48,6 @@
 	} else if (!email.includes("@") || !email.includes(".")) {
 		errorMessage += "Email address is not valid.<br>";
     }
+	 if (fiction && real && fiction === real) {
+         errorMessage += "Real place and fictional place cannot be the same.<br>";
+     }

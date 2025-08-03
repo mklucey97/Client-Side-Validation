@@ -44,3 +44,4 @@
 	 if (!fiction) errorMessage += "Fictional place cannot be empty.<br>";
 	 if (!real) errorMessage += "Real place cannot be empty.<br>";
 	 if (!email) {
+		 errorMessage += "Email address cannot be empty.<br>";

@@ -66,3 +66,7 @@ document.getElementById("form-submit").onclick = function () {
     }
 };
 
+document.getElementById("form-clear").onclick = function () {
+    clearForm();
+};
+

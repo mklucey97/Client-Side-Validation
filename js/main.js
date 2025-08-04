@@ -9,62 +9,66 @@
  * Assignment 5: Client Side Validation
  */
  
- "use strict";
- 
- function clearForm() {
-	 document.getElementById("title").value = "";
-	 document.getElementById("favdrink").value = "";
-	 document.getElementById("pname").value = "";
-	 document.getElementById("favfictionalplace").value = "";
-	 document.getElementById("favrealplace").value = "";
-	 document.getElementById("email").value = "";
-	 document.getElementById("msg").innerHTML = "<br>";
- }
+"use strict";
 
- function validate() {
-	 let errorMessage = "";
-	 
-	 let title = document.getElementById("title").value.trim();
-	 let drink = document.getElementById("favdrink").value.trim();
-	 let pname = document.getElementById("pname").value.trim();
-	 let fiction = document.getElementById("favfictionalplace").value.trim();
-	 let real = document.getElementById("favrealplace").value.trim();
-	 let email = document.getElementById("email").value.trim();
-	 
-	 document.getElementById("title").value = title;
-	 document.getElementById("favdrink").value = drink;
-	 document.getElementById("pname").value = pname;
-	 document.getElementById("favfictionalplace").value = fiction;
-	 document.getElementById("favrealplace").value = real;
-	 document.getElementById("email").value = email;
-	 
-	 if (!title) errorMessage += "Title name cannot be empty.<br>";
-	 if (!drink) errorMessage += "Favorite drink cannot be empty.<br>";
-	 if (!pname) errorMessage += "Pet name cannot be empty.<br>";
-	 if (!fiction) errorMessage += "Fictional place cannot be empty.<br>";
-	 if (!real) errorMessage += "Real place cannot be empty.<br>";
-	 if (!email) {
-		 errorMessage += "Email address cannot be empty.<br>";
-	} else if (!email.includes("@") || !email.includes(".")) {
-		errorMessage += "Email address is not valid.<br>";
-    }
-	 if (fiction && real && fiction === real) {
-         errorMessage += "Real place and fictional place cannot be the same.<br>";
-     }
-	 
-	   return errorMessage;
+function clearForm() {
+    document.getElementById("title").value = "";
+    document.getElementById("favdrink").value = "";
+    document.getElementById("pname").value = "";
+    document.getElementById("favfictionalplace").value = "";
+    document.getElementById("favrealplace").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("msg").innerHTML = "<br>";
 }
 
-document.getElementById("form-submit").onclick = function () {
-	let msg = validate();
-	let msgArea = document.getElementById("msg");
-	if (msg === "") {
-		return true;
-    } else {
-        msgArea.innerHTML = msg;
-        return false;
+function validate() {
+    let errorMessage = "";
+
+    let title = document.getElementById("title").value.trim();
+    let drink = document.getElementById("favdrink").value.trim();
+    let pname = document.getElementById("pname").value.trim();
+    let fiction = document.getElementById("favfictionalplace").value.trim();
+    let real = document.getElementById("favrealplace").value.trim();
+    let email = document.getElementById("email").value.trim();
+
+    document.getElementById("title").value = title;
+    document.getElementById("favdrink").value = drink;
+    document.getElementById("pname").value = pname;
+    document.getElementById("favfictionalplace").value = fiction;
+    document.getElementById("favrealplace").value = real;
+    document.getElementById("email").value = email;
+
+    if (!title) errorMessage += "❌ Error: Title name cannot be empty.<br>";
+    if (!drink) errorMessage += "❌ Error: Favorite drink cannot be empty.<br>";
+    if (!pname) errorMessage += "❌ Error: Pet name cannot be empty.<br>";
+    if (!fiction) errorMessage += "❌ Error: Fictional place cannot be empty.<br>";
+    if (!real) errorMessage += "❌ Error: Real place cannot be empty.<br>";
+
+    if (!email) {
+        errorMessage += "❌ Error: Email address cannot be empty.<br>";
+    } else if (!email.includes("@") || !email.includes(".")) {
+        errorMessage += "❌ Error: Email address is not valid.<br>";
     }
-};
+
+    if (fiction && real && fiction === real) {
+        errorMessage += "❌ Error: Real place and fictional place cannot be the same.<br>";
+    }
+
+    return errorMessage;
+}
+
+// ✅ FIX: Prevent default form submission if validation fails
+document.getElementById("form-submit").addEventListener("click", function (event) {
+    let msg = validate();
+    let msgArea = document.getElementById("msg");
+    if (msg === "") {
+        msgArea.innerHTML = ""; // Clear previous messages
+        // Allow form to submit
+    } else {
+        event.preventDefault(); // ✅ KEY FIX
+        msgArea.innerHTML = msg;
+    }
+});
 
 document.getElementById("form-clear").onclick = function () {
     clearForm();

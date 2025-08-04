@@ -58,3 +58,4 @@
 document.getElementById("form-submit").onclick = function () {
 	let msg = validate();
 	let msgArea = document.getElementById("msg");
+	if (msg === "") {
